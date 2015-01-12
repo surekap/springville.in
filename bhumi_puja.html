@@ -11,7 +11,7 @@
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
 
-  <title>Springville</title>
+  <title>Springville - Bhumi puja</title>
   
   <!-- Included CSS Files (Uncompressed) -->
   <!--
@@ -26,8 +26,7 @@
   <script src="javascripts/modernizr.foundation.js"></script>
   
   <!-- Google fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Exo+2:300' rel='stylesheet' type='text/css' />
-  
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
 
   <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>
@@ -88,20 +87,80 @@
           </div>
           
           <div class="three columns header_logo">
-             <a href="http://www.springville.in/"><img src="images/fg/fg_logo.png" class="hide-for-small" alt="Springville Homes" /></a>
+             <img src="images/logo.png" class="hide-for-small" alt="Springville Homes" />
           </div>
           
         </div><!-- END Header -->
+        
+        <div style="clear: both"></div>
+        
+        
+        
+		<div id="container">
+        
+			<!-- photo -->
+			<div class='box photo col2'>
+				<a href="images/bhumi-puja/IMG_2127.jpg"><img src='images/bhumi-puja/IMG_2127.jpg' alt="" /></a>
+			</div>
+            
+            			<!-- photo -->
+			<div class='box photo col2'>
+				<a href="images/bhumi-puja/IMG_2137.jpg"><img src='images/bhumi-puja/IMG_2137.jpg'  alt=""/></a>
+			</div>
+            
+            			<!-- photo -->
+			<div class='box photo col2'>
+				<a href="images/bhumi-puja/IMG_2143.jpg"><img src='images/bhumi-puja/IMG_2143.jpg' alt=""/></a>
+			</div>
+            
+            			<!-- photo -->
+			<div class='box photo col2'>
+				<a href="images/bhumi-puja/IMG_2146.jpg"><img src='images/bhumi-puja/IMG_2146.jpg' alt="" /></a>
+			</div>
+            
+            			<!-- photo -->
+			<div class='box photo col2'>
+				<a href="images/bhumi-puja/IMG_2148.jpg"><img src='images/bhumi-puja/IMG_2148.jpg' alt=""/></a>
+			</div>
+            
+            			<!-- photo -->
+			<div class='box photo col2'>
+				<a href="images/bhumi-puja/IMG_2157.jpg"><img src='images/bhumi-puja/IMG_2157.jpg' alt="" /></a>
+			</div>
+            
+            			<!-- photo -->
+			<div class='box photo col2'>
+				<a href="images/bhumi-puja/IMG_2165.jpg"><img src='images/bhumi-puja/IMG_2165.jpg' alt="" /></a>
+			</div>
+            
+            			<!-- photo -->
+			<div class='box photo col2'>
+				<a href="images/bhumi-puja/IMG_2162.jpg"><img src='images/bhumi-puja/IMG_2162.jpg' alt="" /></a>
+			</div>
+            
+            			<!-- photo -->
+			<div class='box photo col2'>
+				<a href="images/bhumi-puja/IMG_2166.jpg"><img src='images/bhumi-puja/IMG_2166.jpg' alt="" /></a>
+			</div>
+            
+            			<!-- photo -->
+			<div class='box photo col2'>
+				<a href="images/bhumi-puja/IMG_2181.jpg"><img src='images/bhumi-puja/IMG_2181.jpg' alt=""/></a>
+			</div>
+            
+            			<!-- photo -->
+			<div class='box photo col2'>
+				<a href="images/bhumi-puja/IMG_2185.jpg"><img src='images/bhumi-puja/IMG_2185.jpg' alt="" /></a>
+			</div>
+            
+            			<!-- photo -->
+			<div class='box photo col2'>
+				<a href="images/bhumi-puja/IMG_2186.jpg"><img src='images/bhumi-puja/IMG_2186.jpg' alt="" /></a>
+			</div>
 
-      
-	  <div class="row">
-		  <div class="twelve columns">
-			  <img src="images/fg/location.jpg" alt="Springville Greens - location" />
-		  </div>
-	  </div>
-	  
-	  
-	  <div class="row">
+
+		</div> <!-- end Masonry container -->
+       <div class="row">
         <div class="twelve columns">
             <ul id="menu3" class="footer_menu horizontal">
   			<li class="">&copy; 2014 Springville</li>
@@ -115,22 +174,38 @@
   			<li class=""><a href="help.html">Help</a></li>
 			<li><a target="_blank"href="https://www.facebook.com/pages/Springville-Homes/672664519477497"><img src="images/facebook_black.png"></a></li>
             </ul>
+  		    <script type="text/javascript">
+            //<![CDATA[
+            $('ul#menu3').nav-bar();
+            //]]>
+            </script>
+			
       	</div>
-      
-	    <script type="text/javascript">
-          //<![CDATA[
-          $('ul#menu3').nav-bar();
-          //]]>
-          </script>
-
       </div>
-
-    </div><!-- end page wrap) -->
-    <!-- Included JS Files (Compressed) -->
-    <script src="javascripts/foundation.min.js" type="text/javascript">
-</script> <!-- Initialize JS Plugins -->
-     <script src="javascripts/app.js" type="text/javascript">
-</script>
-  
-</body>
-</html>
+		<!-- end page wrap) -->
+		<!-- Included JS Files (Compressed) -->
+		<script src="javascripts/foundation.min.js" type="text/javascript">
+		</script>
+		<!-- Initialize JS Plugins -->
+		<script src="javascripts/app.js" type="text/javascript">
+		</script>
+		<!-- Masonry for galleries -->
+		<script src="javascripts/masonry.js" type="text/javascript">
+		</script>
+		<script type="text/javascript">
+//<![CDATA[
+      $(function(){
+        var $container = $('#container');
+        $container.imagesLoaded( function(){
+          $container.masonry({
+            itemSelector : '.box',
+                        isFitWidth: true,
+                        isAnimated: true
+          });
+        });
+      });
+  //]]>
+  </script>
+		<!-- END Masonry -->
+		</body>
+		</html>

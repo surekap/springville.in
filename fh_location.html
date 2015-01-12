@@ -10,6 +10,8 @@
 
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
+   <script src="http://maps.google.com/maps/api/js?sensor=false"
+              type="text/javascript"></script>
 
   <title>Springville</title>
   
@@ -90,9 +92,10 @@
 			  <li><a href="about.html">Who we are</a></li>
 			  
 			  <li class="has-flyout">
-                <a href="#">Jajpur</a><a href="#" class="flyout-toggle"></a>
+                <a href="#">Springville Homes</a><a href="#" class="flyout-toggle"></a>
 
                 <ul class="flyout">
+				  <li class="has-flyout"><a href="media/springville-homes-brochure.pdf"target="_blank">Download Brochure</a></li>
                 
                   <li class="has-flyout"><a href="fh_amenities.html">Amenities</a></li>
                   
@@ -108,7 +111,7 @@
               </li>
 		      
 			  <li class="has-flyout">
-                <a href="#">Bhubaneshwar</a><a href="#" class="flyout-toggle"></a>
+                <a href="#">Springville Greens</a><a href="#" class="flyout-toggle"></a>
 
                 <ul class="flyout">
                 
@@ -133,31 +136,116 @@
         </div><!-- END Header -->
 
       
-	  <div class="row">
+	 <div class="row">
 		  <div class="twelve columns">
 			  <img src="images/fh/location.jpg" alt="Springville Homes Location" />
 		  </div>
 		  <div class="twelve columns">
-		  	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119246.46351556857!2d86.10176713236436!3d20.934356527085715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDU3JzU0LjQiTiA4NsKwMDMnNDYuMSJF!5e0!3m2!1sen!2sin!4v1391937818080" width="600" height="450" frameborder="0" style="border:0"></iframe>
-		  </div>
-	  </div>
+		  	<!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119246.46351556857!2d86.10176713236436!3d20.934356527085715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDU3JzU0LjQiTiA4NsKwMDMnNDYuMSJF!5e0!3m2!1sen!2sin!4v1391937818080" width="600" height="450" frameborder="0" style="border:0"></iframe>-->
+
+			<div id="map" style="width: 858px; height: 450px;"></div>
+
+      			<script type="text/javascript">
+        		var locations = [
+         		 ['Jajpur Road (Near Bedi Filling Station)', 20.965796,86.062635],
+       							 ];
+
+         // Setup the different icons and shadows
+    var iconURLPrefix = '/springville.in/images/';
+    
+    var icons = [
+      iconURLPrefix + 'map_location.png',
+     
+      
+    ]
+    var icons_length = icons.length;
+    
+    
+    var shadow = {
+      anchor: new google.maps.Point(15,33),
+      url: iconURLPrefix + 'msmarker.shadow.png'
+    };
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 13,
+	  center: new google.maps.LatLng(20.965796,86.062635),
 	  
-	  
-	  <div class="row">
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      mapTypeControl: true,
+      streetViewControl: true,
+      panControl: true,
+      zoomControlOptions: {
+         position: google.maps.ControlPosition.LEFT_BOTTOM
+      }
+    });
+
+    var infowindow = new google.maps.InfoWindow({
+      maxWidth: 160
+    });
+
+    var marker;
+    var markers = new Array();
+    
+    var iconCounter = 0;
+    
+    // Add the markers and infowindows to the map
+    for (var i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map,
+        icon : icons[iconCounter],
+        shadow: shadow
+      });
+
+      markers.push(marker);
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+      
+      iconCounter++;
+      // We only have a limited number of possible icon colors, so we may have to restart the counter
+      if(iconCounter >= icons_length){
+      	iconCounter = 0;
+      }
+    }
+
+    function AutoCenter() {
+      //  Create a new viewpoint bound
+      var bounds = new google.maps.LatLngBounds();
+      //  Go through each...
+      $.each(markers, function (index, marker) {
+        bounds.extend(marker.position);
+      });
+      //  Fit these bounds to the map
+      map.fitBounds(bounds);
+    }
+    AutoCenter();
+  </script> 
+<br>
+  <div class="row">
         <div class="twelve columns">
             <ul id="menu3" class="footer_menu horizontal">
   			<li class="">&copy; 2014 Springville</li>
   			<li class="">&nbsp;</li>
 			
-              <li class=""><a href="index.html">Home</a></li>
+            <li class=""><a href="index.html">Home</a></li>
   			<li class=""><a href="privacy.html">Privacy Policy</a></li>
   			<li class=""><a href="disclaimer.html">Legal Disclaimer</a></li>
   			<li class=""><a href="tos.html">Terms of Service</a></li>
   			<li class=""><a href="feedback.html">Feedback</a></li>
   			<li class=""><a href="help.html">Help</a></li>
+			<li><a target="_blank"href="https://www.facebook.com/pages/Springville-Homes/672664519477497"><img src="images/facebook_black.png"></a></li>
             </ul>
-      	  
+			
 		</div>
+    </div>
+		  </div>
+	  </div>
+	  
 		  
 		  <script type="text/javascript">
           //<![CDATA[
