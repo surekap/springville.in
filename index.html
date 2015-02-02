@@ -49,7 +49,7 @@
   </style>
   
   <script src="javascripts/modernizr.foundation.js"></script>
-  
+  <script src="javascripts/jquery.js" type="text/javascript" />
   <!-- Google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Exo+2:300' rel='stylesheet' type='text/css' />
 
@@ -187,7 +187,66 @@
         </div>
         
       </div><!-- end row -->
-      
+     <hr/>
+		 
+		 <div data-alert class="alert-box alert radius" style="display:none;">
+		   <span class="alert_msg">This is an alert - alert that is rounded.</span>
+		   <a href="#" class="close">&times;</a>
+		 </div>
+		 <div data-alert class="alert-box success radius" style="display:none;">
+		   <span class="success_msg">This is a success alert with a radius.</span>
+		   <a href="#" class="close">&times;</a>
+		 </div>
+		 
+     <div class="row">
+       <div class="three columns">
+       	<h2>Enquiry Form</h2>
+         
+				<script>
+				$(function(){
+					$(".alert-box").hide();
+					
+					
+					$("iframe[name=hiddenFrame]").load(function(e){
+						$(".success_msg").html("Response saved. Thank you for contacting us - we will get in touch with you shortly.");
+						$("div.success").show();						
+					});
+					
+					$("form[name=insightly_web_to_contact] a.alert").click(function(){
+						$('form[name=insightly_web_to_contact]').submit();
+					});
+				})
+				</script>
+				<iframe name="hiddenFrame" style="display:none;"></iframe>
+				
+         <form role="form" name="insightly_web_to_contact" action="https://googleapps.insight.ly/WebToContact/Create" method="post" target="hiddenFrame">
+					   <input type="hidden" name="formId" value="lkEn6z2fXfAIQhu2cx1HGw=="/>
+             <input type="hidden" name="site" value="springville"/>
+           <div class="form-group">
+             <input name="FirstName" type="text" class="form-control" id="insightly_firstName" placeholder="Your First Name" maxlength="30">
+           </div>
+           <div class="form-group">
+             <input name="LastName" type="text" class="form-control" id="insightly_lastName" placeholder="Your Last Name" maxlength="30">
+           </div>
+           <div class="form-group">
+               <input type="hidden" name="emails[0].Label" value="Work"/>
+             <input name="emails[0].Value" type="text" class="form-control" id="emails[0]_Value" placeholder="Your Email" maxlength="30">
+           </div>
+           <div class="form-group">
+           <input type="hidden" name="phones[0].Label" value="Work"/>
+             <input id="phones[0]_Value" name="phones[0].Value" type="text" class="form-control" placeholder="Your Phone" maxlength="30"/>
+           </div>
+           <div><a class="button alert">Submit</a></div>
+         </form>
+       </div>
+       <div class="nine columns">
+         <div class="txtarea">
+             <br /><br />
+           <textarea name="background" rows="10" class="form-control" id="insightly_background"></textarea>
+         </div>
+       </div>
+     </div>
+		  
      <hr/>
       
       <div class="row" style="padding-top: 20px">
@@ -241,8 +300,9 @@
     </div><!-- end page wrap) -->
     <!-- Included JS Files (Compressed) -->
     <script src="javascripts/foundation.min.js" type="text/javascript">
+		
 </script> <!-- Initialize JS Plugins -->
-     <script src="javascripts/app.js" type="text/javascript">
+		 <script src="javascripts/app.js" type="text/javascript">
 </script>
   
 </body>
