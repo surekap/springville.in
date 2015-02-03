@@ -1,0 +1,342 @@
+<!doctype html>
+<html id="bgLeft">
+<head>
+<meta charset="UTF-8">
+<title>Springville</title>
+<meta name="description" content="Spring Ville provides apartment for sale, flat for sale and home for sale in Bhubaneswar and Jajpur." />
+<meta name="keywords" content="" />
+<meta name="robots" content="index,follow" />
+<meta name="dcterms.dateCopyrighted" content="© 2014 Springville. "/>
+
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+<script language="javascript" type="text/javascript" src="js/country_code.js"></script>
+
+<script src="js/html5.js" type="text/javascript"></script>
+<script type='text/javascript' src='ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js'></script>
+<style>
+	.content{ display:none;}
+</style>
+</head>
+<body id="bgRight">
+
+	<div class='content'>
+       
+        <div id="div_idle"></div>
+        <div id="div_away"></div>
+        <div id="mainContainer" class="homePage">
+            <img src="images/bg.jpg" class="homeBg">
+            <div id="stage" class="stage">
+                <div id="cloud1" class="stage"></div>
+            </div>
+            
+            <header class="header">
+    <a href="http://springville.in/" target="_blank"><img src="images/logo_white.png" class="logo_white" height="84" /></a>
+</header>            
+    <section class="slogan" id="sloganId">
+                The perfect confluence
+            </section>
+       
+          <script>
+                QueryLoader.selectorPreload = "body";
+                QueryLoader.init();
+            </script> 
+          
+         <script src="../../code.jquery.com/jquery-1.9.1.js"></script>
+<script src="../../code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<link rel="stylesheet" href="../resources/demos/style.html" />
+<link rel="stylesheet" href="css/gosf.css" type="text/css"/>
+  <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+  
+  <script>
+  $(function() {
+    $( document ).tooltip();
+  });
+  </script>
+<script type="text/javascript" language="javascript" src="js/pop_validation.js">
+</script>
+
+<footer class="footer">
+<div class="nav" style="height:36px;margin-bottom:0px;"></div>
+	<nav class="nav">
+               <a href="#" onclick="showWinter()">Image Gallery</a> | <a href="location.html"  target="_blank" class="fancybox fancybox.iframe">Location</a> | <!--<a href="walkthrough.html" target="_blank" class="youTube fancybox fancybox.iframe">-->Walkthrough <!--</a>-->&nbsp; | &nbsp;Follow Us : <a href="https://www.facebook.com/springville.in" target="_blank"><img align="absmiddle" src="images/facebook_icon.png" style="margin-bottom:2px;">&nbsp;<a href="#"><img align="absmiddle" src="images/icon_Twitter.png" style="margin-bottom:2px;"></a>
+  	</nav>
+	
+    <div class="clear"></div>
+    <!-- Enquiry -->
+     <div class="dropdowSection">
+    <section class="dropEnquiry">
+    	<figure class="icon"><img src="images/enquiry-icon.png" width="53" height="46" alt=""/></figure>
+    	<a href="javascript:void(0)">
+        	Enquiry Form
+            <span>-</span>
+            <span style="display:none;">+</span>
+        </a>
+       <form name="frmenquiry" id="frmenquiry" method="post" action="http://elita.us8.list-manage.com/subscribe/post">
+        <fieldset class="module-link-select">
+        	<div class="row">
+            	<input name="MERGE1" type="text" id="txtname" onFocus="this.value=''" onBlur="if(this.value==''){this.value='First Name'}" Value="First Name" maxlength="50">
+            </div>
+			<div class="row">
+            	<input name="MERGE2" type="text" id="txtname1" onFocus="this.value=''" onBlur="if(this.value==''){this.value='Last Name'}" Value="Last Name" maxlength="50">
+            </div>
+            <div class="row">
+            	<input name="MERGE0" type="text" id="txtemail" onFocus="this.value=''" onBlur="if(this.value==''){this.value='E-mail'}" Value="E-mail" maxlength="80">
+            </div>
+            <div class="row">
+                <input name="MERGE3" type="text"  id="txtmobile" onFocus="this.value=''" onBlur="if(this.value==''){this.value='Mobile Number'}" Value="Mobile Number" maxlength="10">
+                <input type="hidden" name="u" value="050d898f1f8b5400bad6980bd"> <!-- copy from mailchimp -->
+                <input type="hidden" name="id" value="4dacfaa972"> <!-- copy from mailchimp -->
+            </div>
+            <div class="row">
+            	<input type="submit" value="Submit" onClick="return validfields();">
+            </div>
+            <div class="clear"></div>
+        </fieldset></form>
+        
+    </section>
+     
+        </div>
+    
+</footer>
+
+<!------- Gallery---->
+
+<div id="constructionGallery" >
+	<div class="galleryPics">
+    	<div class="container">
+        	<a href="#" onClick="hideConstruction()"> X </a>
+        	<iframe src="construction.html" frameborder="0" class="construction"></iframe> 
+    	</div>
+    </div>
+</div>
+ 
+ <!------- Winter Gallery---->
+
+<div id="winterGallery">
+	<div class="galleryPics">
+    	<div class="container">
+        	<a href="#" onClick="hideWinter()"> X </a>
+        	<iframe src="winter-gallery.html" frameborder="0" class="construction"></iframe> 
+    	</div>
+    </div>
+</div>
+
+
+
+ 
+<!-- cloud animation -->
+<script src="js/jquery-1.6.3.min.js" type="text/javascript"></script>
+<script src="js/jquery.spritely-0.6.js" type="text/javascript"></script>
+
+<!-- zWeatherFeed plugin scripts (required) --> 
+<script src="js/jquery.zweatherfeed.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	$('#weatherDiv').weatherfeed(['INXX0089']);
+});
+
+</script>
+
+<!-- Idle Status -->
+<script src="js/idle-status.js" type="text/javascript"></script>
+<script type="text/javascript">
+ jenqURL = document.location.href.split("#");
+	(function($) {
+		$(document).ready(function() {
+			
+			$('#cloud1').pan({fps: 30, speed: 1, dir: 'left', depth: 100});
+			if(jenqURL[1]=="enqURL"){
+			$( ".newEnquiryForm" ).slideToggle();
+			}
+		});
+		$('.wht').click(function() {
+			$( ".newEnquiryForm" ).slideToggle();
+		});
+	})
+	(jQuery);
+	// idle status
+	//setIdleTimeout(60000); // 60 seconds
+	//setAwayTimeout(66000); // 66 seconds
+	
+	
+	document.onIdle = function() {$('#div_idle').delay(6000).fadeIn(800);}
+	document.onAway = function() {$('#div_away').delay(10500).fadeIn(800);}
+
+	document.onBack = function(isIdle, isAway) {
+		
+		
+		if (isIdle) $("#div_idle").delay(500).fadeOut(800);
+		if (isAway) $("#div_away").delay(500).fadeOut(800);
+	}</script>
+
+<!-- scroll buttons -->
+<script type="text/javascript" src="js/scrollbutton.js"></script>
+
+<!-- jquery tabs -->
+<script src="js/jquery-ui-1.10.1.custom.js"></script>
+<script>
+	$(function() {
+		$( "#tabs" ).tabs();
+	});
+</script>
+
+
+<!-- fade gallery -->
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.pikachoose.js"></script>
+<script language="javascript">
+	$(document).ready(function (){
+		$("#pikame").PikaChoose();
+		
+		
+	});
+ function showConstruction() {
+	// alert("sdf");
+	document.getElementById("constructionGallery").style.visibility="visible"; 
+ }
+function hideConstruction () {
+	document.getElementById("constructionGallery").style.visibility="hidden"; 
+ }
+
+ function showWinter() {
+	//alert("sdf");
+	document.getElementById("winterGallery").style.visibility="visible"; 
+ }
+function hideWinter () {
+	document.getElementById("winterGallery").style.visibility="hidden"; 
+ }
+ 
+ 
+  function showRains() {
+	//alert("sdf");
+	document.getElementById("rainGallery").style.visibility="visible"; 
+ }
+function hideRains () {
+	document.getElementById("rainGallery").style.visibility="hidden"; 
+ }
+
+
+
+</script>
+
+<!-- campaigin url -->
+<script>
+
+jenqURL = document.location.href.split("#");
+	if(jenqURL[1]=="rainGallery"){
+		$(document).ready(function() { 
+			$('.rain').click(); 
+		});	
+	}
+
+ 	jenqURL = document.location.href.split("#");
+	if(jenqURL[1]=="winterGallery"){
+		$(document).ready(function() { 
+			$('.winter').click(); 
+		});	
+	}
+	
+	jenqURL = document.location.href.split("#");
+	if(jenqURL[1]=="constructionGallery"){
+		$(document).ready(function() { 
+			$('.construction').click(); 
+		});	
+	}
+	
+</script>
+
+
+
+<!-- walkthrough pop up -->
+<script type="text/javascript" src="source/jquery.fancybox8cbb.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="source/jquery.fancybox8cbb.css?v=2.1.5" media="screen" />
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.fancybox').fancybox({});
+	});
+</script>
+</script>
+	
+	
+	});
+</script>
+
+  
+    <!-- custom select box -->
+<link rel="stylesheet" href="css/customSelectBox.html" />
+<script>
+    var bodyTag = document.getElementsByTagName("body")[0];
+    bodyTag.className = bodyTag.className.replace("noJS", "hasJS");
+</script>
+
+<script>	
+    $(function() {
+        
+        $(".module-link-select").each(function() {
+            var $form = $(this);
+
+            var sb = new SelectBox({
+                selectbox: $form.find("select"),
+                height: 150,
+                //width: 200,
+                changeCallback: function(val) {
+                    if( val !== "" ) {
+                        $form.attr("action", val);
+                        $form.submit();	
+                    }
+                }
+            });
+        });
+        
+    });
+</script>
+    
+    
+    </div>
+    
+    
+<!-- toggle -->
+<script>
+	$( ".dropEnquiry a" ).click(function() {
+	  $(".dropEnquiry fieldset").slideToggle( "slow" );
+	  $(".dropEnquiry a span").slideToggle( "fade" );
+	});
+	
+	$( ".otherProjects a" ).click(function() {
+	  $(".otherProjects .figure").slideToggle( "slow" );
+	  $(".otherProjects a span").slideToggle( "fade" );
+	});
+	
+	$( ".gallery" ).hover(function() {
+		//alert("sdf");
+	  	$(".galLinks").slideToggle( "slow" );
+	});
+
+</script>
+
+        </div>
+        
+    </div>
+    <div class="intlNumber" style="position:fixed; right:0; bottom:430px;"><a href="#"><!--<img src="images/toll_free.png" alt=" " />--></a><span><!--<img src="images/itc_number.png" alt=" " />--></span></div>
+    <div class="warning-message">
+        <div>
+            This website is only viewable in Landscape View. 
+        </div>
+    </div>
+    <script>
+        $("#sloganId").delay(10000).fadeOut(800);
+        $(".content").delay(500).fadeIn(800);
+    </script>
+
+<script>
+$(".intlNumber a" ).hover(function() {
+	$(this).parent(".intlNumber").find("span").toggle("slow");
+});
+</script>
+
+
+
+</body>
+
+
+</html>
