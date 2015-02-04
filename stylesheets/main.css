@@ -57,7 +57,7 @@ h2,h3,h4 {font-family:'goudysans_lt_mediumregular',sans-serif; font-weight: norm
 
 .nav-bar {margin-top: 0; background: none}
 .nav-bar > li {border: 0; padding: 0; font-family: 'Exo 2',sans-serif;}
-.nav-bar > li > a:first-child {font-size: 16px; text-transform: uppercase; padding: 5px 25px}
+.nav-bar > li > a:first-child {font-size: 16px; text-transform: uppercase; padding: 5px 23px}
 .nav-bar > li:last-child {border: 0}
 .nav-bar > li.active:hover { background: #f4f4f4; cursor: default; }{}
 .nav-bar > li:hover { background: #f4f4f4; color: #000;         
