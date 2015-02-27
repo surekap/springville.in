@@ -57,13 +57,13 @@
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-  <script>
+<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-56670772-1', 'auto');
+  ga('create', 'UA-55035691-2', 'auto');
   ga('send', 'pageview');
 
 </script>
@@ -213,6 +213,14 @@
 					});
 					
 					$("form[name=insightly_web_to_contact] a.alert").click(function(){
+					
+							//Store HTTP Referer for adding the visit source to the insightly form. teh alert was for testing purposes.
+								if(document.referrer)
+								{
+								  var x = document.referrer;
+								  //alert("Referer is :"+x);
+								  $('#referer').val(x);
+								}
 						$('form[name=insightly_web_to_contact]').submit();
 					});
 				})
@@ -222,6 +230,7 @@
          <form role="form" name="insightly_web_to_contact" action="https://googleapps.insight.ly/WebToContact/Create" method="post" target="hiddenFrame">
 					   <input type="hidden" name="formId" value="lkEn6z2fXfAIQhu2cx1HGw=="/>
              <input type="hidden" name="site" value="springville"/>
+			 <input type="hidden" id="referer" name="visit_source" value=""/>
            <div class="form-group">
              <input name="FirstName" type="text" class="form-control" id="insightly_firstName" placeholder="Your First Name" maxlength="30">
            </div>
