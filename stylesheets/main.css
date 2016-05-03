@@ -236,3 +236,31 @@ text-shadow:0px 1px 0px #7e7e7e;
     position: relative;
    margin-bottom:10px;
 }
+.row .margin_bottom{
+	margin-bottom:10px;
+}
+.section-title-wrapper {
+    text-align: center;
+}
+.section-title {
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 30px;
+    position: relative;
+  
+}
+.section-title::before, .section-title::after {
+    border-bottom: 1px solid #999;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 80px;
+}
+.section-title::before {
+    left: -100px;
+    top: 10px;
+}
+.section-title::after {
+    right: -100px;
+    top: 10px;
+}
