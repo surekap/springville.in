@@ -280,13 +280,13 @@ header nav .ownmenu ul.dropdown .indicator {
 }
 .ownmenu li > .megamenu form textarea {
 	width: 100%;
-	margin-top: 10px;
+	margin-top: 0px;
 }
 .ownmenu li > .megamenu form input[type="submit"] {
 	width: 25%;
 	float: right;
 	height: 30px;
-	margin-top: 10px;
+	margin-top: 0px;
 	border: none;
 	cursor: pointer;
 	background: #444;
@@ -9277,9 +9277,9 @@ transform:translateY(0)
 ========================================================*/
 .color-switcher {
 	width: 266px;
-	position: fixed;
+	position:absolute;
 	right: -266px;
-	top: 150px;
+	top:625px;
 	z-index: 999;
 	padding: 0px;
 	-webkit-transition: all 500ms ease;
