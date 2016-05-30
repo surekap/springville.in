@@ -1,36 +1,5 @@
-/*------------------------------------------------------------------
-    Main Style Stylesheet
-    Project:        ZAP | The Multi-Purpose HTML5 Template
-    Version:        1.0
-    Author:         M_Adnan
-    Last change:    10/02/2015
-    Primary use:    Creative, Coporate, Business, Portfolio, Personal
--------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------
-body 
- + WRAP
- + HEADER
- + NAVIGATION
- + BANNER
- + SERVICES
- + OUR FEATURED FOUNDERS
- + BLOG UPDATES 
- + APPOINMENT
- + NEWS FROM BLOG
- + PARTNERS / CLIENTS
- + FOOTER
- + SOCIAL ICONS
- + MEGA MENU
- + 3 MENU LEVEL 
--------------------------------------------------------------------*/
-/*=======================================================
-      IMPORT FILE
-========================================================*/
 @import url("animate.css");
-/*=======================================================
-      THEME STYLING START
-========================================================*/
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -229,7 +198,7 @@ section {
       HEADINGS
 ========================================================*/
 .heading-block {
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	display: inline-block;
 	width: 100%;
 }
@@ -241,8 +210,8 @@ section {
 	letter-spacing: 3px;*/
 }
 .heading-block h2 {
-	font-size: 48px;
-	font-weight: 200;
+	font-size: 40px;
+	font-weight: 100;
 	text-transform: uppercase;
 	margin: 0px;
 }
@@ -818,7 +787,7 @@ hr.black {
 	padding-right: 42%;
 }
 .beuti-craft li {
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 }
 .beuti-craft li h6 {
 	margin: 20px 0;
@@ -2094,7 +2063,7 @@ social_tag {
 	font-size: 14px;
 }
 .icon-style article {
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 .icon-style article:hover .icon {
 	background: #008040;
@@ -3427,6 +3396,7 @@ hr.center {
 .item-decribe .media-body p {
 	width: 80%;
 	font-style: italic;
+	margin: 0 0 5px ;
 }
 .item-decribe .media-body h6 {
 	font-size: 12px;
@@ -5820,7 +5790,7 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 	font-weight: 600;
 }
 #footer .footer-top {
-	padding-top: 15px;
+	padding-top: .px;
 }
 #footer .footer-top .columns {
 	border-left: 1px solid #2e2e2e;
@@ -6745,6 +6715,9 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 }
 .process-style-3 .media {
 	text-align: center;
+}
+.media-body p {
+	margin: 0 0 0px ;
 }
 .process-style-3 .media-body {
 	text-align: left;
