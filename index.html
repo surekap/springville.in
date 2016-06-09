@@ -276,20 +276,18 @@ window._fbq.push(['track', '6022411374349', {'value':'0.01','currency':'INR'}]);
              <input type="hidden" name="site" value="springville"/>
 			 <input type="hidden" id="referer" name="visit_source" value=""/>
            <div class="form-group">
-             <input name="FirstName" type="text" class="form-control" id="insightly_firstName" placeholder="Your First Name" maxlength="30">
+             <input name="FirstName" type="text" class="form-control" id="insightly_firstName" placeholder="Your First Name" maxlength="30" required="">
            </div>
            <div class="form-group">
-             <input name="LastName" type="text" class="form-control" id="insightly_lastName" placeholder="Your Last Name" maxlength="30">
+             <input name="LastName" type="text" class="form-control" id="insightly_lastName" placeholder="Your Last Name" maxlength="30" required="">
            </div>
            <div class="form-group">
-               <input type="hidden" name="emails[0].Label" value="Work"/>
-             <input name="emails[0].Value" type="text" class="form-control" id="emails[0]_Value" placeholder="Your Email" maxlength="30">
-           </div>
-           <div class="form-group">
-           <input type="hidden" name="phones[0].Label" value="Work"/>
-             <input id="phones[0]_Value" name="phones[0].Value" type="text" class="form-control" placeholder="Your Phone" maxlength="30"/>
-           </div>
-           <div><a class="button alert">Submit</a></div>
+                <input type="email" name="emails[0].Value" type="email" class="form-control" id="emails[0]_Value" id="contactEmail" required="@" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" placeholder="Your Email*" placeholder="Email" required="">
+              </div>
+              <div class="form-group">
+                <input id="phones[0]_Value" id="mobile" name="phones[0].Value" type="tel" inputmode="numeric" pattern="[0-9]{10}" min="10" minlength="10"  maxlength="10" class="form-control" required="" placeholder="Your Phone*">
+              </div>
+           <button  id="btn_submit" value="submit" class="btn width-100 button alert" type="submit">SUBMIT YOUR QUERY</button>
          </form>
        </div>
        <div class="nine columns">
