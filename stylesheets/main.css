@@ -99,6 +99,13 @@ ul.flyout li a:hover, .nav-bar li ul li a:hover { background: #f4f4f4; color: #0
 
 .gallery-nav-bar li a:hover {background: #C02702; color: #FFF; padding: 3px 12px; border-radius: 3px}
 
+/*  Video */
+
+.embed_vid{
+width: 50%;
+margin: 0 auto;
+}
+
 
 /* footer menu */
 

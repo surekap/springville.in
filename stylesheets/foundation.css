@@ -48,7 +48,8 @@ p a, p a:visited { line-height: inherit; }
 @media only screen and (max-width: 767px) { .left { float: none; } }
 
 .right { float: right; }
-@media only screen and (max-width: 767px) { .right { float: none; } }
+@media only screen and (max-width: 767px) { .right { float: none; } 
+}
 
 .text-left { text-align: left; }
 
@@ -136,7 +137,7 @@ abbr { text-transform: none; }
 
 /* Print styles.  Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/ Credit to Paul Irish and HTML5 Boilerplate (html5boilerplate.com)
 */
-.print-only { display: none !important; }
+
 
 @media print { * { background: transparent !important; color: black !important; box-shadow: none !important; text-shadow: none !important; filter: none !important; -ms-filter: none !important; }
   /* Black prints faster: h5bp.com/s */
