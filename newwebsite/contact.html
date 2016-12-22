@@ -68,21 +68,30 @@
         </section>
       </div>
       <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-        <form action="sendemail.php" class="contact-form">
+        <form role="form" name="insightly_web_to_contact"  class="contact-form" action="https://googleapps.insight.ly/WebToContact/Create" method="post">
+          <input type="hidden" name="formId" value="lkEn6z2fXfAIQhu2cx1HGw=="/>
+          <input type="hidden" name="site" value="springville" />
+          <input type="hidden" id="referer"  class="referer" name="visit_source" value="" />
           <p>
-            <input type="text" name="name" placeholder="Name">
+            <input name="FirstName" type="text" required="" class="form-control" id="insightly_firstName" placeholder="Your First Name" maxlength="30">
           </p>
           <p>
-            <input type="text" name="email" placeholder="Email">
+            <input name="LastName" type="text" required="" class="form-control" id="insightly_lastName" placeholder="Your Last Name" maxlength="30">
           </p>
           <p>
-            <input type="text" name="subject" placeholder="Subject">
+            <input type="hidden" name="emails[0].Label" value="Work"/>
+      <input name="emails[0].Value" type="email" class="form-control" id="emails[0]_Value" id="contactEmail" required="@" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" placeholder="Your Email*">
+          </p>
+           <p>
+             <input type="hidden" name="phones[0].Label" value="Work"/>
+            <input id="phones[0]_Value" id="mobile" name="phones[0].Value" type="tel" inputmode="numeric" pattern="[0-9]{10}" min="10" minlength="10"  maxlength="10" class="form-control" required="" placeholder="Your Phone*">
+          </p>
+          
+          <p>
+            <textarea name="background" rows="5" class="form-control" required="" id="insightly_background" placeholder="Type your massage ...."></textarea>
           </p>
           <p>
-            <textarea name="message" placeholder="Message"></textarea>
-          </p>
-          <p>
-            <button type="submit">Submit Now</button>
+            <button type="submit" onClick="store_referer();" required="" class="btn btn-primary faq-btnsecondary">Send Message</button>
           </p>
         </form>
       </div>
