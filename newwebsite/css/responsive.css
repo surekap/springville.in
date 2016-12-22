@@ -1486,7 +1486,7 @@
 		line-height: 30px;
 	}
 	header.construct.header-curvy .logo {
-		width: 90%;
+		width: 70%;
 	}
 	header.construct.header-curvy .mainmenu-container ul li {
 		line-height: 35px;
@@ -1553,6 +1553,15 @@
 
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	header .logo {
+		text-align: center;
+	}
+	.mainmenu-container {
+		padding: 0px 0;
+	}
+	b
+	
 	footer .widget img.positioned {
 		margin-top: 10px;
 	}
@@ -1815,3 +1824,28 @@
 	td:nth-of-type(5):before { content: "Total"; }
 	td:nth-of-type(6):before { content: "Delete Item"; }
 }
+
+@media only screen and (max-width: 767px) {
+	
+	header.construct.header-curvy .logo {
+    width: 50%;
+   
+}
+button.mainmenu-toggler {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  color: #fff;
+  display: none;
+  float: right;
+  font-size: 16px;
+  font-weight: 800;
+  height: 33px;
+  line-height: 13px;
+  margin-right: 10px;
+  outline: medium none;
+  padding: 0 11px;
+  transition: all 0.3s ease 0s;
+  margin-top: -60px;
+}
+	}
