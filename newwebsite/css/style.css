@@ -1802,6 +1802,52 @@ footer .footer-menu .footer-nav-toggler {
     margin-left: 5px;
 }
 
+
+/**
+* EVENT Styles.
+**/
+
+#page-title-event {
+    background: url(../img/resources/bg-event.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 65px 0;
+}
+#page-title-event .container {
+    position: relative;
+}
+#page-title-event .title {
+    text-align: center;
+}
+#page-title-event .title h1 {
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    color: #212121;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 50px;
+    /*border: 1px solid #fff;*/
+    border-top: 1px solid rgba(132,119,117,.80);
+    border-bottom: 1px solid rgba(132,119,117,.80);
+    padding: 0 52px;
+    font-weight: bold;
+}
+#page-title-event .page-breadcumb {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 12px;
+}
+#page-title-event .page-breadcumb a {
+    color: #fff;
+}
+#page-title-event .page-breadcumb .fa {
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
 /**
 * Construction status Styles.
 **/
@@ -2764,6 +2810,12 @@ color: #ffffff;}
 #contact-content .contact-form p {
     margin-bottom: 20px;
 }
+.contact-form p::-webkit-input-placeholder { color: #000; }
+.contact-form p:-moz-placeholder { color: #000; }
+.contact-form p::-moz-placeholder { color: #000; }
+.contact-form p-ms-input-placeholder { color: #000; }
+
+
 #contact-content .contact-form input,
 #contact-content .contact-form textarea {
     width: 100%;
@@ -7715,10 +7767,10 @@ fieldset .row input {
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
-.form-control::-webkit-input-placeholder { color: white; }
-.form-control:-moz-placeholder { color: white; }
-.form-control::-moz-placeholder { color: white; }
-.form-control:-ms-input-placeholder { color: white; }
+#defaultForm .form-control::-webkit-input-placeholder { color: white; }
+#defaultForm .form-control:-moz-placeholder { color: white; }
+#defaultForm .form-control::-moz-placeholder { color: white; }
+#defaultForm .form-control:-ms-input-placeholder { color: white; }
 
 .cons-status{
 	color:#000;
