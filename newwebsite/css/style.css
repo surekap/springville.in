@@ -7611,9 +7611,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', end
     display: inline-block;
     padding: 8px;
 }
-.call-me{
-	background: transparent none repeat scroll 0 0;
+#btn_call{background: transparent none repeat scroll 0 0;
 	border:1px solid #fff;
+	color:#FFFFFF;
+	text-indent: 25px;
+	line-height:28px;
+	}
+. button .call-me{
+	background: transparent none repeat scroll 0 0;
+	
 	padding:7px 30px 7px;
 	color:#FFFFFF;
 	text-indent: 25px;
@@ -7621,7 +7627,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', end
 .brochure{ background:#000;}
 .brochure a{ color:#fff;}
 .ebrochure {
-	background:#000;
+	   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006e2e+0,006e2e+100;Green+Flat+%233 */
+background: #006e2e; /* Old browsers */
+background: -moz-linear-gradient(top,  #006e2e 0%, #006e2e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #006e2e 0%,#006e2e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #006e2e 0%,#006e2e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006e2e', endColorstr='#006e2e',GradientType=0 ); /* IE6-9 */
+
+
 	border:1px solid #fff;
 	padding:7px 30px 7px;
 	color:#000;
@@ -7643,6 +7656,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', end
     width: 100%;
 	
 }
+
+.form-group input[type="email"]{
+	background-color: transparent;
+    border-radius: 0;
+    color: #fff !important;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    height: 30px;
+    margin: 0;
+	text-indent: 25px;
+    padding: 6px;
+    transition: all 0.15s linear 0s;
+    width: 100%;
+	}
+	.form-group input[type="tel"]{
+	background-color: transparent;
+    border-radius: 0;
+    color: #fff !important;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    height: 30px;
+    margin: 0;
+	text-indent: 25px;
+    padding: 6px;
+    transition: all 0.15s linear 0s;
+    width: 100%;
+	}
 .form-group input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus {
     background: transparent none repeat scroll 0 0;
     border-color: #fff;
