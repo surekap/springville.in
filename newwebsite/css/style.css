@@ -7692,8 +7692,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006e2e', end
 	color:#000;
 	text-indent: 25px;
 }
-
-.form-group input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
+#defaultForm .form-group input[type="text"] {
     background-color: transparent;
     border-radius: 0;
     color: #fff !important;
@@ -7707,9 +7706,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006e2e', end
     transition: all 0.15s linear 0s;
     width: 100%;
 	
+	
 }
-
-.form-group input[type="email"]{
+.form-group input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
+    background-color: transparent;
+    border-radius: 0;
+    color: #555 !important;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    height: 30px;
+    margin: 0;
+	padding: 6px;
+    transition: all 0.15s linear 0s;
+    width: 100%;
+}
+#defaultForm .form-group input[type="email"]{
 	background-color: transparent;
     border-radius: 0;
     color: #fff !important;
@@ -7723,7 +7735,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006e2e', end
     transition: all 0.15s linear 0s;
     width: 100%;
 	}
-	.form-group input[type="tel"]{
+#defaultForm .form-group input[type="tel"]{
 	background-color: transparent;
     border-radius: 0;
     color: #fff !important;
@@ -7756,7 +7768,7 @@ fieldset .row input {
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #fff;
+    color: #000;
     background-image: none;
     border: 1px solid #fff !important;
     border-radius: 4px;
