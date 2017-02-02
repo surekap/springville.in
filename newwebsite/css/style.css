@@ -1766,6 +1766,11 @@ footer .footer-menu .footer-nav-toggler {
     background-size: cover;
     padding: 65px 0;
 }
+#page-title-upcoming {
+    background: url(../img/resources/page-title-contact-bg.png) center center no-repeat;
+    background-size: cover;
+    padding: 65px 0;
+}
 #page-title .container {
     position: relative;
 }
@@ -7844,3 +7849,216 @@ fieldset .row input {
     text-align: center;
     pointer-events: none;
 }
+.upcoming {
+    background: rgba(0, 0, 0, 0) url("../img/sg-gradient.jpg") repeat scroll 0 0 / cover ;
+    padding-bottom: 80px;
+}
+.green_elevation{}
+.green_elevation img{
+	-webkit-filter: drop-shadow(0px 1px 1px #5b5b5b);
+    filter: drop-shadow(0px 1px 1px #5b5b5b); 
+}
+.about_text {
+    color: #4e4d4d;
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+/* F A C I L I T I E S    S t y l e */
+.generator_backup {
+    background: #fff url("../img/amenities/Picture1.jpg") no-repeat scroll center center;
+	background-size:cover;
+}
+.generator_backup {
+    display: inline-block;
+    height: 270px;
+    position: relative;
+    width: 100%;
+}
+.generator_backup span {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #ccc #ccc #ccc -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    display: block;
+    height: 100%;
+    padding-top: 120px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    transition: all 0.5s ease-in 0s;
+    width: 130px;
+}
+.generator_backup span:hover {
+    background: #eee none repeat scroll 0 0;
+}
+.fire-fighting {
+    background: #fff url("../img/amenities/Picture2.jpg") no-repeat scroll center center;
+	background-size:cover;
+}
+.fire-fighting {
+    display: inline-block;
+    height: 270px;
+    position: relative;
+    width: 100%;
+}
+.fire-fighting span {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #ccc #ccc #ccc -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    display: block;
+    height: 100%;
+    padding-top: 90px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    transition: all 0.5s ease-in 0s;
+    width: 130px;
+}
+.fire-fighting span:hover {
+    background: #eee none repeat scroll 0 0;
+}
+.intercom  {
+    background: #fff url("../img/amenities/Picture3.jpg") no-repeat scroll center center;
+	background-size:cover;
+}
+.intercom  {
+    display: inline-block;
+    height: 270px;
+    position: relative;
+    width: 100%;
+}
+.intercom span {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #ccc #ccc #ccc -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    display: block;
+    height: 100%;
+    padding-top: 60px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    transition: all 0.5s ease-in 0s;
+    width: 130px;
+}
+.intercom span:hover {
+    background: #eee none repeat scroll 0 0;
+}
+
+
+
+.stp  {
+    background: #fff url("../img/amenities/Picture4.jpg") no-repeat scroll center center;
+	background-size:cover;
+}
+.stp  {
+    display: inline-block;
+    height: 270px;
+    position: relative;
+    width: 100%;
+}
+.stp span {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #ccc #ccc #ccc -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    display: block;
+    height: 100%;
+    padding-top: 90px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    transition: all 0.5s ease-in 0s;
+    width: 130px;
+}
+.stp span:hover {
+    background: #eee none repeat scroll 0 0;
+}
+.harvesting  {
+    background: #fff url("../img/amenities/Picture5.jpg") no-repeat scroll center center;
+	background-size:cover;
+}
+.harvesting  {
+    display: inline-block;
+    height: 270px;
+    position: relative;
+    width: 100%;
+}
+.harvesting span {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #ccc #ccc #ccc -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    display: block;
+    height: 100%;
+    padding-top: 90px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    transition: all 0.5s ease-in 0s;
+    width: 130px;
+}
+.harvesting span:hover {
+    background: #eee none repeat scroll 0 0;
+}
+.led  {
+    background: #fff url("../img/amenities/Picture6.jpg") no-repeat scroll center center;
+	background-size:cover;
+}
+.led  {
+    display: inline-block;
+    height: 270px;
+    position: relative;
+    width: 100%;
+}
+.led span {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #ccc #ccc #ccc -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    display: block;
+    height: 100%;
+    padding-top: 90px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    transition: all 0.5s ease-in 0s;
+    width: 130px;
+}
+.led span:hover {
+    background: #eee none repeat scroll 0 0;
+}
+
