@@ -7412,10 +7412,10 @@ header.construct.header-curvy.header-fixed .mainmenu-container > ul > li.dropdow
 }
 .single-project-item .content-wrapper {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 0px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
     padding: 20px;
 }
 .single-project-item .content-wrapper:before {
@@ -7430,8 +7430,8 @@ header.construct.header-curvy.header-fixed .mainmenu-container > ul > li.dropdow
 }
 .single-project-item .content .button-box {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 45%;
+	right: 40%;
 }
 .single-project-item .content .button-box a {
     color: rgba(255,255,255, 1);
