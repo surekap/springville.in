@@ -963,7 +963,7 @@
 	header .mainmenu-container ul.mainmenu li a:hover,
 	header .mainmenu-container ul.mainmenu li.current > a {
 		color: #fff !important;
-		background: #DC9514;
+		background:#222222;
 		padding: 0 30px;
 	}
 	header .mainmenu-container ul.mainmenu li.current > a {
@@ -1499,14 +1499,14 @@
 	}
 	header .mainmenu-container.pull-right {
 		float: none !important;
-		padding-bottom: 30px;
+		padding-bottom: 0px;
 	}
 	header.construct.header-curvy .mainmenu-container ul {
 		transition: none !important;
 	}
 	header.construct.header-curvy .mainmenu-container ul.mainmenu {
 		position: relative;
-		top: 20px;
+		top: 0px;
 	}
 	header.construct.header-curvy .mainmenu-container ul > li > ul {
 		position: static;
@@ -1836,7 +1836,6 @@ button.mainmenu-toggler {
   border: 1px solid #d8d8d8;
   border-radius: 5px;
   color: #fff;
-  display: none;
   float: right;
   font-size: 16px;
   font-weight: 800;
