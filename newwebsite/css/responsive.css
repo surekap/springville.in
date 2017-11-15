@@ -51,7 +51,7 @@
 		margin-top: 50px;
 	}
 	.mainmenu-container {
-		margin-top: 30px;
+		/*margin-top: 30px;*/
 	}
 	header .mainmenu-container ul {
 		text-align: center;
@@ -911,7 +911,7 @@
 	}
 	
 	.mainmenu-container {
-		padding: 30px 0;
+		padding: 10px 0;
 	}
 	button.mainmenu-toggler {
 		display: block;
@@ -1833,9 +1833,9 @@
 }
 button.mainmenu-toggler {
   background: transparent none repeat scroll 0 0;
-  border: 1px solid #d8d8d8;
+  border: 1px solid #222222;
   border-radius: 5px;
-  color: #fff;
+  color: #222222;
   float: right;
   font-size: 16px;
   font-weight: 800;
@@ -1845,6 +1845,6 @@ button.mainmenu-toggler {
   outline: medium none;
   padding: 0 11px;
   transition: all 0.3s ease 0s;
-  margin-top: -60px;
+  margin-top: -49px;
 }
 	}

@@ -914,12 +914,6 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     padding: 0 30px;
 }
 
-
-
-/**
-* Service We Provide Styles.
-**/
-
 #service-we-provide {
     padding: 20px 0;
     background: #F9F9F9;
@@ -3533,10 +3527,11 @@ button.mainmenu-toggler {
   outline: medium none;
   padding: 0 11px;
   transition: all 0.3s ease 0s;
+	margin-top: 18px;
 }
 button.mainmenu-toggler:hover {
-    border-color: #F69C00;
-    color: #F69C00;
+    border-color: #000;
+    color: #000;
 }
 .mainmenu-container ul li.dropdown .fa {
     display: none;
