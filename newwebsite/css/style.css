@@ -720,6 +720,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
     line-height: 22px;
     height: auto !important;
 	font-size:14px;
+	font-weight: 600;
 }
 .contentBox p {
     padding: 15px 30px;

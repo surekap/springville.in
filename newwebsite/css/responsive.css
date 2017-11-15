@@ -1829,8 +1829,14 @@
 	
 	header.construct.header-curvy .logo {
     width: 50%;
-   
-}
+   }
+	.contentBox h2 {
+		margin-left: 0px;
+	}
+	.jajpur-heading p{
+		
+		padding-left: 12px;
+	}
 button.mainmenu-toggler {
   background: transparent none repeat scroll 0 0;
   border: 1px solid #222222;
