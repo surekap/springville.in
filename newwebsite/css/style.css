@@ -2861,6 +2861,10 @@ color:#999
 	position: absolute;
 	right: 15px;
 	float: right;
+	position: absolute;
+right: 16px;
+float: right;
+top: 50px;
 }
 #pricing-content .price-table-wrap .price-table .price-box span {
 	font-weight: bold;
@@ -6371,6 +6375,7 @@ header.construct.header-curvy {
 	background: #ffffff;
 	-webkit-background-size: cover;
 	background-size: cover;
+	z-index: 1;
 }
 header.construct.header-curvy {
 	-webkit-box-shadow: none !important;
