@@ -728,6 +728,21 @@
 }
 
 @media only screen and (max-width: 767px) {
+	
+	.pswp__item{
+		position: absolute;
+		
+		overflow: hidden;
+		
+	}
+	.pswp img{
+		
+		display: block;
+		width: 320px;
+		height: 186px;
+	}
+	
+	
 	.container {
 		padding: 0 15px;
 	}

@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900');
+﻿@import url('http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900');
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic');
@@ -2824,6 +2824,7 @@ color:#999
 #pricing-content {
 	padding: 10px 0;
 	font-family: 'Open Sans';
+	z-index: 1;
 }
 #pricing-content .col-lg-12 p {
 	font-size: 14px;
@@ -2859,12 +2860,15 @@ color:#999
 }
 #pricing-content .price-table-wrap .price-table .price-box span {
 	position: absolute;
-	right: 15px;
+	right: 14px;
 	float: right;
 	position: absolute;
-right: 16px;
-float: right;
-top: 50px;
+	right: 16px;
+	float: right;
+	top: 50px;
+}
+#pricing-content .price-table-wrap .price-table .price-box span img{
+	width: 44px;
 }
 #pricing-content .price-table-wrap .price-table .price-box span {
 	font-weight: bold;
@@ -7810,3 +7814,6 @@ color: white;
 .led span:hover {
 	background: #eee none repeat scroll 0 0;
 }
+
+.pswp__img{position:absolute;width:auto;height:auto;top:0;left:0;cursor:zoom-in;}
+.pswp__button--zoom{display:inline !important;background-position:-88px 0;}
