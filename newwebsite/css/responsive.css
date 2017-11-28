@@ -741,7 +741,10 @@
 		width: 320px;
 		height: 186px;
 	}
-	
+	.sideimg{
+		
+		display: none;
+	}
 	
 	.container {
 		padding: 0 15px;
@@ -1803,6 +1806,15 @@
 		position: relative;
 		padding-left: 50%; 
 	}
+	.sideimg{
+		
+		display: none;
+	}
+	.contact-info{
+		
+		padding-top: 15px;
+		
+	}
 	
 	.cart-page td:before { 
 		/* Now like a table header */
@@ -1868,4 +1880,12 @@ button.mainmenu-toggler {
   transition: all 0.3s ease 0s;
   margin-top: -49px;
 }
+	.contact-info{
+		
+		padding-top: 15px;
+		
+	}
+	#featured .content{
+		margin-bottom: 0px !important;
+	}
 	}
