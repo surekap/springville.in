@@ -1619,12 +1619,12 @@ footer .widget .social li {
 }
 footer .widget .social li a {
 	display: inline-block;
-	width: 40px;
-	height: 40px;
+	width: 35px;
+	height: 35px;
 	border-radius: 50%;
 	background: #F69C00;
 	text-align: center;
-	line-height: 40px;
+	line-height: 35px;
 	color: #224755;
 	font-size: 17px;
 	margin-right: 5px;
@@ -5942,12 +5942,26 @@ footer.construct .widget .social li a {
 	color: #39352d;
 }
 footer.construct .widget .social li a:hover {
+	
+	/*background: #eeeeee; 
+	/*background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%);
+	/*background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
+	background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%);*/
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );*/
+
 	background: #39352d;
-	border: 1px solid #39352d;
+	border: 0px solid #39352d;
 	color: #fff;
 }
 footer.construct .widget .social li a:before {
-	background: #39352d;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,b5b5b5+100 */
+background: #eeeeee; /* Old browsers */
+background: -moz-linear-gradient(top,  #eeeeee 0%, #b5b5b5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #eeeeee 0%,#b5b5b5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #eeeeee 0%,#b5b5b5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#b5b5b5',GradientType=0 ); /* IE6-9 */
+
+border: 1px solid #2F2F2F
 }
 footer.construct .widget .popular-post li a:hover h5 {
 	color: #FFBB00;
@@ -6426,7 +6440,7 @@ header.construct.header-curvy .mainmenu-container > ul > li > a {
 	font-weight: 400;
 	letter-spacing: 0.03em;
 	font-family: 'Roboto', sans-serif;
-	padding: 0 10px;
+	padding: 0 7px;
 	font-weight: 500;
 }
 header.construct.header-curvy ul.top-icons-wrap > li > a {
@@ -7820,4 +7834,8 @@ color: white;
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     margin: 0 auto !important;
+}
+footer .widget .social p {
+    text-align: left;
+	line-height: 5px;
 }
