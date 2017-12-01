@@ -5973,7 +5973,7 @@ footer.construct .widget .contact-info li i, footer.construct .widget .contact-i
 	display: table-cell;
 	vertical-align: middle;
 }
-footer.construct .widget .contact-info li span {
+footer.construct .widget .contact-info li span a{
 	line-height: 21px;
 	padding-left: 15px;
 	font-family: 'Open Sans';
