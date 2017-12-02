@@ -1403,7 +1403,7 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
 }
 #spv .img-wrap:before {
 	content: ' ';
-	background: rgba(218, 151, 0, .75);
+	/*background: rgba(218, 151, 0, .75);*/
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -1454,6 +1454,8 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
 	color: #212121;
 	font-weight: 500;
 	margin-bottom: 0;
+	text-align: justify;
+	padding-right: 10px;
 }
 #spv .content-wrap ul {
 	margin-top: 20px;
