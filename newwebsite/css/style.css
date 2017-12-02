@@ -7636,7 +7636,51 @@ color: white;
 	line-height: 25px;
 }
 /* F A C I L I T I E S    S t y l e */
-.generator_backup {
+.specification{
+	background: #FFFFFF;
+	margin-top: 25px;
+}
+
+.col-sm-3 .generator{
+	background: #fff;
+	border-right 1px solid #fff;
+	
+	
+}
+ .generator h3{
+	padding: 35% 1px 1px 3%;
+	font-size: 14px !important;
+	 text-align: center;
+	 line-height: 22px;
+}
+
+
+.fire-extinguisher{
+	
+	background: #fff;
+}
+
+.fire-extinguisher h3{
+	padding: 30% 1px 1px 3%;
+	font-size: 14px !important;
+	 text-align: center;
+	 line-height: 22px;
+	
+}
+.intercom-cctv{
+	
+	background: #fff;
+}
+
+.intercom-cctv h3{
+	padding: 10% 1px 1px 1%;
+	font-size: 14px !important;
+	 text-align: center;
+	 line-height: 22px;
+	
+}
+
+/*.generator_backup {
 	background: #fff url("../img/amenities/Picture1.jpg") no-repeat scroll center center;
 	background-size: cover;
 }
@@ -7797,6 +7841,21 @@ color: white;
 	background: #eee none repeat scroll 0 0;
 }
 .led {
+	
+	
+	background-image: url(../img/amenities/Picture6.jpg);
+  background-image: 
+    -webkit-image-set(
+      url(../img/amenities/Picture6.jpg) 1x,
+      url(../img/amenities/Picture6.jpg) 2x,
+    );
+  background-image: 
+    image-set(
+      url(../img/amenities/Picture6.jpg) 1x,
+      url(../img/amenities/Picture6.jpg) 2x,
+    );
+	
+	
 	background: #fff url("../img/amenities/Picture6.jpg") no-repeat scroll center center;
 	background-size: cover;
 }
@@ -7827,7 +7886,7 @@ color: white;
 }
 .led span:hover {
 	background: #eee none repeat scroll 0 0;
-}
+}*/
 
 .pswp__img{position:absolute;width:auto;height:auto;top:0;left:0;cursor:zoom-in;}
 .pswp__button--zoom{display:inline !important;background-position:-88px 0;}
