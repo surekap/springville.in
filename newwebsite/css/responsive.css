@@ -745,6 +745,19 @@
 	.fire{
 		margin-top: 25px;
 	}
+	.google_map{
+		margin-top: 5px;
+		margin: 4px 50px 0px;
+		
+	}
+	.demo-gallery{
+		margin: 4px 50px 0px;
+		
+	}
+#spv.version-two .blog-wrap .img-wrap {
+	width: 270px;
+	display: none;
+}
 .fire-extinguisher{
 	
 	background: #fff;
