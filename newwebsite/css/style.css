@@ -2976,19 +2976,20 @@ color:#999
 	position: relative;
 	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
+	font-weight: 600;
 }
 #project-version-one .gallery-filter li.active span:before {
 	content: ' ';
 	display: block;
 	width: 100%;
 	height: 2px;
-	background: #DA9700;
+	background: #000;
 	position: absolute;
 	bottom: -1px;
 	left: 0;
 }
 #project-version-one .gallery-filter li.active span, #project-version-one .gallery-filter li:hover span {
-	color: #DA9700;
+	color: #000;
 }
 #project-version-one .single-project-item {
 	margin-bottom: 30px;
