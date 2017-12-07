@@ -2024,7 +2024,8 @@
 @media only screen and (max-width: 767px) {
 	
 	header.construct.header-curvy .logo {
-    width: 50%;
+    width: 70%;
+		height: auto;
    }
 	.contentBox h2 {
 		margin-left: 0px;

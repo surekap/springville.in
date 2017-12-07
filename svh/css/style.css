@@ -6510,7 +6510,7 @@ header.construct.header-curvy .mainmenu-container ul > li > ul > li > ul {
 /* header-v5 fixed  styles */
 
 header.construct.header-curvy .logo img {
-	transition: all .3s ease;
+	/*transition: all .3s ease;*/
 }
 header.construct.header-curvy.header-fixed .logo img {
 	width: 80%;
@@ -6521,6 +6521,7 @@ header.construct.header-curvy.header-fixed .logo {
 	padding: 5px 0;
 	height: 100%;
 	padding-right: 0;
+	width: 250px;
 }
 header.construct.header-curvy .logo:before {
 	transition: all .3s ease;
