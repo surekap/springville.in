@@ -727,10 +727,9 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
 	margin: 38px 0;
 }
 #spv-living h1 {
-	color: #46a3aa !important;
 	font-size: 2em !important;
-	font-style: oblique;
 	margin: 60px;
+	text-transform: uppercase;
 }
 #amenities {
 	padding-top: 20px;
@@ -1710,7 +1709,7 @@ footer .footer-menu .footer-nav-toggler {
 #page-title {
 	/*background: url(../img/resources/page-title-bg.jpg) center center no-repeat;*/
 	background-size: cover;
-	padding: 65px 0;
+	padding: 50px 0;
 	background: #f0f0f0;
 }
 #page-title-upcoming {
@@ -6831,8 +6830,8 @@ header.construct.header-curvy.header-fixed .mainmenu-container > ul > li, header
 
 #contact-content {
 	padding-bottom: 80px;
-	background: url(../img/sh-contact-sun.jpg);
-	background-size: cover;
+	/*background: url(../img/sh-contact-sun.jpg);
+	background-size: cover;*/
 }
 #contact-content .section-title {
 	margin-bottom: 73px;
@@ -6856,8 +6855,8 @@ header.construct.header-curvy.header-fixed .mainmenu-container > ul > li, header
 	margin-bottom: 0;
 }
 #contact-content .contact-form button {
-	background: none;
-	padding: 0 0px;
+	background:#515050;
+	/*padding: 0 0px;*/
 	border: 0px solid #fff;
 }
 #contact-content .contact-info ul li .icon-box, #contact-content .contact-info ul li .text-box {
