@@ -331,7 +331,7 @@ header nav.mainmenu-container ul > li > ul > li > a:after {
 	content: '\f105';
 	font-family: 'FontAwesome';
 	color: #999;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 40px;
 	position: absolute;
 	top: 0;
@@ -727,9 +727,10 @@ header nav.mainmenu-container ul > li > ul > li > a:hover {
 	margin: 38px 0;
 }
 #spv-living h1 {
-	font-size: 2em !important;
-	margin: 60px;
-	text-transform: uppercase;
+	color: #000 !important;
+font-size: 2em !important;
+font-style: oblique;
+margin: 60px;
 }
 #amenities {
 	padding-top: 20px;
@@ -6438,7 +6439,7 @@ header.construct.header-curvy .mainmenu-container ul li {
 	line-height: 75px;
 }
 header.construct.header-curvy .mainmenu-container > ul > li > a {
-	font-size: 13px;
+	font-size: 12.5px;
 	font-weight: 400;
 	letter-spacing: 0.03em;
 	font-family: 'Roboto', sans-serif;
