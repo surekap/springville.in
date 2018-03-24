@@ -18,6 +18,18 @@
 * Global Styles.
 **/
 
+
+body.modal-open .blur{
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    filter: url("https://gist.githubusercontent.com/amitabhaghosh197/b7865b409e835b5a43b5/raw/1a255b551091924971e7dee8935fd38a7fdf7311/blur".svg#blur);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+
+
 body {
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
@@ -7930,4 +7942,16 @@ footer .widget .social p {
 	font-size: 16px;
     
     
+}
+.popup{
+	background: #515050;
+	color: #fff;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	line-height: 40px;
+	padding: 0 43px;
+	text-transform: uppercase;
+	font-weight: normal;/*box-shadow: 1px 1px 2px #5F5E5E;
+	border-radius: 20px;*/
 }
