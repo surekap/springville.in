@@ -1627,6 +1627,7 @@ footer .widget a.read-more {
 footer .widget .social {
 	text-align: left;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 footer .widget .social li {
 	display: inline;
