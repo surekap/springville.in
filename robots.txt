@@ -1,7 +1,0 @@
-User-agent: * 
-Allow: / 
-sitemap: http://www.springville.in/sitemap.xml
-
-
-
-
