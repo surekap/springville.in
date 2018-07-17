@@ -4,10 +4,10 @@
 	$phone = $_REQUEST['phone'];
 	$email = $_REQUEST['email'];
 	$msg = $_REQUEST['msg'];
-	$to = $_POST['sales@surekaproperties.com'];
-	$to .= 'nagpal@surekaproperties.com' . ', ';
-	$to .= 'branding@surekaproperties.com ';
-	$from = "sales@surekaproperties.com";
+	$to = $_POST['rajan@surekaproperties.com'];
+	//$to .= 'nagpal@surekaproperties.com' . ', ';
+	//$to .= 'branding@surekaproperties.com ';
+	$from = "rajan@surekaproperties.com";
 //data
 $subject = "Springville Homes: Enquiry";
 //$replymsg = file_get_contents("sg_email.html");
