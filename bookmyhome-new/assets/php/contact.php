@@ -3,8 +3,8 @@ $name = $_POST['contact-form-name'];
 $email = $_POST['contact-form-email'];
 $message = $_POST['contact-form-message'];
 
-$to = 'hithemestarz@gmail.com';
-$subject = 'Message From Your Website Contact Form Condio';
+$to = 'rajanuptec@gmail.com';
+$subject = 'Message From Your Website Contact Form SVH';
 
 $body = "";
 $body .= "Name: ";
