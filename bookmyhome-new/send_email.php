@@ -75,7 +75,12 @@ $headers = 'From: '.$email_from."\r\n".
  
 <!-- include your own success html here -->
  
-Thank you for contacting us. We will be in touch with you very soon.
+{
+      
+	header('Location: thankyou.html');exit;
+				// echo "mail send";
+			
+			  }
  
 <?php
  
