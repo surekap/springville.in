@@ -2,8 +2,8 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "rajan@surekaproperties.com";
-    $email_subject = "Springville Home - Bookmyhome";
+    $email_to = "sales@springville.in";
+    $email_subject = "Enquiry from www.springville.in/bookmyhome";
  
     function died($error) {
         // your error code can go here
@@ -58,8 +58,6 @@ if(isset($_POST['email'])) {
       $bad = array("content-type","bcc:","to:","cc:","href");
       return str_replace($bad,"",$string);
     }
- 
-     
  
     $email_message .= "Name: ".clean_string($first_name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
