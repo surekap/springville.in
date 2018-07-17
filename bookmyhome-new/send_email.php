@@ -77,10 +77,7 @@ $headers = 'From: '.$email_from."\r\n".
  
 {
       
-	header('Location: thankyou.html');exit;
-				// echo "mail send";
-			
-			  }
+	
  
 <?php
  

@@ -15,7 +15,7 @@ $subject = "Springville Homes: Enquiry";
 $headers  = "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=UTF-8\r\n";
 $headers .= "From: <".$from. ">" ;
-$msg = 'Name : '.$owner.'<br>'; 
+$msg = 'Name : '.$name.'<br>'; 
 $msg .= 'Phone No: '.$phone.'<br>' ;
 $msg .= 'E-Mail: '.$email.'<br>' ;
 mail($email, $subject, $replymsg, $headers);
