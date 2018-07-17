@@ -73,10 +73,10 @@ $headers = 'From: '.$email_from."\r\n".
 @mail($email_to, $email_subject, $email_message, $headers);  
 ?>
  
-<!-- include your own success html here -->
+header('Location: thankyou.html');
  
-{
-      
+ 
+
 	
  
 <?php
