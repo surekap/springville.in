@@ -22,7 +22,7 @@ mail($email, $subject, $replymsg, $headers);
 if(mail($to, $subject, $msg, $headers))
 {
       
-	header('Location: thankyou.html');exit;
+	header('Location: http://springville.in/bookmyhome-new/thankyou.html');exit;
 				// echo "mail send";
 			
 			  }
