@@ -62,6 +62,10 @@
   <lastmod>2018-04-20T06:09:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
+<url>
+	<loc>http://www.springville.in/bookmyhome/</loc>
+	<changefreq>always</changefreq>
+	<priority>1.00</priority>
+</url>
 
 </urlset>
