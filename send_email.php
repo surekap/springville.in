@@ -13,7 +13,7 @@
 	$from = "sales@surekaproperties.com";
 //data
 $subject = "Springville Homes: Enquiry";
-//$replymsg = file_get_contents("sg_email.html");
+$replymsg = file_get_contents("reply.html");
 //Headers
 $headers  = "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=UTF-8\r\n";
