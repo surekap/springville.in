@@ -24,7 +24,7 @@ mail($email, $subject, $headers);
 if(mail($to, $subject, $msg, $headers))
 			  {
 		         
-				header('Location: thankyou.html');exit;
+				header('Location: http://springville.in/thankyou.html');exit;
 				// echo "mail send";
 			
 			  }
