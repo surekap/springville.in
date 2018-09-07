@@ -9,7 +9,7 @@
 	$to .= 'rajan@surekaproperties.com' . ', ';
 	$from = "smm@surekaproperties.com";
 //data
-$subject = "Sureka Properties: Enquiry";
+$subject = "Springville Homes: Enquiry";
 //$replymsg = file_get_contents("sg_email.html");
 //Headers
 $headers  = "MIME-Version: 1.0\r\n";
@@ -20,7 +20,7 @@ $msg .= 'Address: '.$address.'<br>' ;
 $msg .= 'Mobile No: '.$mobile.'<br>' ;
 $msg .= 'E-Mail: '.$email.'<br>' ;
 
-mail($email, $subject, $replymsg, $headers);
+mail($email, $subject, $headers);
 if(mail($to, $subject, $msg, $headers))
 			  {
 		         
