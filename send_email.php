@@ -9,7 +9,7 @@
 	//$link = "<script>window.open('http:springville.in/thankyou.html')</script>";
 	
 	$to = $_POST['sales@surekaproperties.com'];
-	$to .= 'rajan@surekaproperties.com' . ', ';
+	$to .= 'smm@surekaproperties.com' . ', ';
 	$from = "sales@surekaproperties.com";
 //data
 $subject = "Springville Homes: Enquiry";
