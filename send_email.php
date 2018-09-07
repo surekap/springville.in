@@ -5,6 +5,7 @@
 	$text_msg = $_REQUEST['text_msg'];
 	$mobile = $_REQUEST['mobile'];
 	$email = $_REQUEST['email'];
+	$link = window.open(http:springville.in/thankyou.html);
 	$to = $_POST['sales@surekaproperties.com'];
 	$to .= 'rajan@surekaproperties.com' . ', ';
 	$from = "sales@surekaproperties.com";
@@ -24,10 +25,10 @@ mail($email, $subject, $replymsg, $headers);
 if(mail($to, $subject, $msg, $headers))
 			  {
 		         
-				header('Location: thankyou.html');
+				//header('Location: thankyou.html');
 				
 				// echo "mail send";
-				echo window.open('http:springville.in/thankyou.html');
+				echo $link;
 			
 			  }
 ?>
