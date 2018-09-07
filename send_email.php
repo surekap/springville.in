@@ -21,10 +21,11 @@ $msg .= 'E-Mail: '.$email.'<br>' ;
 $msg .= 'Massage: '.$text_msg.'<br>' ;
 
 mail($email, $subject, $headers);
-if(mail($to, $subject, $text_msg, $headers))
+if(mail($to, $subject, $msg, $headers))
 			  {
 		         
 				header('Location: thankyou.html');exit;
+				
 				// echo "mail send";
 			
 			  }
