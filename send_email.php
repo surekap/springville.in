@@ -27,7 +27,7 @@ if(mail($to, $subject, $msg, $headers))
 				header('Location: thankyou.html');
 				
 				// echo "mail send";
-				//echo window.open('http:springville.in/thankyou.html');
+				echo window.open('http:springville.in/thankyou.html');
 			
 			  }
 ?>
