@@ -22,12 +22,13 @@ $msg .= 'Massage: '.$text_msg.'<br>' ;
 
 mail($email, $subject, $replymsg, $headers);
 if(mail($to, $subject, $msg, $headers))
-			  {
-	header("location: http://springville.in/thankyou.html");
-				// echo "mail send";
-				
-				//echo 'window.open("http://springville.in/thankyou.html")';
-			  }
 			  
-	
+	{
+		header
+			// echo "mail send";
+			echo 'window.open("http://springville.in/thankyou.html")';
+			
+			}
+			  
+
 ?>
