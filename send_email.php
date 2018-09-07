@@ -5,9 +5,9 @@
 	$text_msg = $_REQUEST['text_msg'];
 	$mobile = $_REQUEST['mobile'];
 	$email = $_REQUEST['email'];
-	$to = $_POST['smm@surekaproperties.com'];
+	$to = $_POST['sales@surekaproperties.com'];
 	$to .= 'rajan@surekaproperties.com' . ', ';
-	$from = "smm@surekaproperties.com";
+	$from = "sales@surekaproperties.com";
 //data
 $subject = "Springville Homes: Enquiry";
 //$replymsg = file_get_contents("sg_email.html");
