@@ -23,7 +23,7 @@ $msg .= 'Mobile No: '.$mobile.'<br>' ;
 $msg .= 'E-Mail: '.$email.'<br>' ;
 $msg .= 'Massage: '.$text_msg.'<br>' ;
 
-mail($email, $subject, $replymsg, $headers);
+mail($email, $subject, $headers);
 if(mail($to, $subject, $msg, $headers))
 			  {
 		         
