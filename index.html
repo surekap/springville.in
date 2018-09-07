@@ -244,7 +244,7 @@
     </div>
   </div>
 </section>
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false">
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -258,6 +258,21 @@
         <button type="button" class="btn popup" data-dismiss="modal">I Agree</button>
       </div>
     </div>
+  </div>
+</div>
+
+
+<div class="modal hide fade" id="myModal">
+  <div class="modal-header">
+    <a class="close" data-dismiss="modal">×</a>
+    <h3>Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn">Close</a>
+    <a href="#" class="btn btn-primary">Save changes</a>
   </div>
 </div>
 <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script> 
@@ -278,7 +293,8 @@
 <script src="js/revolution-slider/extensions/revolution.extension.parallax.min.js" type= "text/javascript"></script> 
 <script src="js/revolution-slider/extensions/revolution.extension.slideanims.min.js" type= "text/javascript"></script> 
 <script src="js/revolution-slider/extensions/revolution.extension.video.min.js" type= "text/javascript"></script>
---><script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+-->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
 <script  src="js/index.js"></script> 
 <script src="js/jquery.fancybox.pack.js" type= "text/javascript"></script> 
@@ -309,6 +325,7 @@ var google_remarketing_only = true;
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js">
 </script>
+
 <script type="text/javascript">
  $(document).ready(function() {
      if ($.cookie('pop') == null) {
@@ -316,6 +333,11 @@ var google_remarketing_only = true;
          $.cookie('pop', '1');
      }
  });
+</script>
+<script type="text/javascript">
+    $(window).on('load',function(){
+        $('#myModal').modal('show');
+    });
 </script>
 
 </body>
