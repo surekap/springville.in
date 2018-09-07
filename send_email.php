@@ -24,9 +24,10 @@ mail($email, $subject, $replymsg, $headers);
 if(mail($to, $subject, $msg, $headers))
 			  {
 		         
-				header('Location: thankyou.html');exit;
+				header('Location: thankyou.html');
 				
 				// echo "mail send";
+				//echo window.open('http:springville.in/thankyou.html');
 			
 			  }
 ?>
