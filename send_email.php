@@ -7,8 +7,8 @@
 	 $phone=$_POST['phone'];
 	 $comment=$_POST['comment'];
 	 	
-		     $to  = 'smm@surekaproperties.com';
-			 $subject="Raghu Estates - Contact Us Enquiry";
+		     $to  = 'rajan@surekaproperties.com';
+			 $subject="Springville - Contact Us Enquiry";
 			$massege_body = "
 			<table width='100%' border='0' cellspacing='0' cellpadding='0'>
 			<tr><td><table width='100%' border='0' cellspacing='0' cellpadding='0'>
@@ -36,7 +36,7 @@
 			<tr><td>".$massege_body."</td></tr>
 			</table></body></html>";
 
-				$reply_email='smm@surekaproperties.com';
+				$reply_email='rajan@surekaproperties.com';
 				$headers ="From: ".$reply_email."\n";
 				$headers.="MIME-Version: 1.0\n";
 				$headers.="Content-type: text/html; charset=iso 8859-1";
