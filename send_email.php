@@ -8,9 +8,9 @@
 	
 	//$link = "<script>window.open('http:springville.in/thankyou.html')</script>";
 	
-	$to = $_POST['sales@surekaproperties.com'];
+	$to = $_POST['enquiry@surekaproperties.com'];
 	$to .= 'smmspringville@gmail.com' . ', ';
-	$from = "sales@surekaproperties.com";
+	$from = "enquiry@surekaproperties.com";
 //data
 $subject = "Springville Homes: Enquiry";
 $replymsg = file_get_contents("reply.html");
