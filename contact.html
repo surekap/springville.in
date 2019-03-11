@@ -72,19 +72,21 @@
 		<form role="form" class="contact-form" method="post" action="send_email.php">
           
           <p>
-            <input name="name" type="text" required="" class="form-control" id="name" placeholder="Your First Name" maxlength="30">
+            <input id="name" name="name" type="text" placeholder="Your name" class="form-control contss_form" />
           </p>
           
           <p>
-            <input name="email" placeholder="Your Email*" type="email" class="form-control" id="email" required="@" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" >
+            <input id="email" name="email" type="text" placeholder="Your email" class="form-control contss_form" required="@" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"/>
+			
           </p>
            <p>
             
-            <input id="mobile" id="mobile" name="mobile" type="tel" pattern="[0-9]{10}" min="10" minlength="10"  maxlength="10" class="form-control" required="" placeholder="Your Phone*">
+             <input id="contact" name="contact" type="text" placeholder="Phone No" pattern="[0-9]{10}" min="10" minlength="10"  maxlength="10" class="form-control contss_form" />
+			
           </p>
           
           <p>
-            <textarea name="text_msg" rows="4" class="form-control" id="text_msg" placeholder="Type your massage ...."></textarea>
+            <textarea class="form-control" id="comment" name="comment" placeholder="Please enter your message here..." rows="6"></textarea>
           </p>
           <p>
             <button type="submit" class="btn btn-default" >Submit</button>
