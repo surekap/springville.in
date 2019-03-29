@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "sales@springville.in";
+    $email_to = "enquiry@surelaproperties.com";
     $email_subject = "Enquiry from www.springville.in/bookmyhome";
  
     function died($error) {
