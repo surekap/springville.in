@@ -10,7 +10,8 @@ $git_bin_path = 'git';
 $update = true;
 
 // Parse data from Bitbucket hook payload
-$payload = json_decode($_POST['payload']);
+//$payload = json_decode($_POST['payload']);
+$payload = json_decode($_REQUEST['payload']);
 
 if (empty($payload->commits)){
   // When merging and pushing to bitbucket, the commits array will be empty.
