@@ -7,7 +7,7 @@ $web_root_dir = '/var/www/' . SITE . '/public';
 // Full path to git binary is required if git is not in your PHP user's path. Otherwise just use 'git'.
 $git_bin_path = 'git';
 
-$update = false;
+$update = true;
 
 // Parse data from Bitbucket hook payload
 $payload = json_decode($_POST['payload']);
