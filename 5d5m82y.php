@@ -5,7 +5,7 @@ $repo_dir = '/var/www/' . SITE . '/repo';
 $web_root_dir = '/var/www/' . SITE . '/public';
 
 // Full path to git binary is required if git is not in your PHP user's path. Otherwise just use 'git'.
-$git_bin_path = 'git';
+$git_bin_path = '/bin/git';
 
 $update = false;
 
