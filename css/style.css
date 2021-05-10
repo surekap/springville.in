@@ -7966,3 +7966,10 @@ footer .widget .social p {
 .galery-padding{
 	padding: 10px;
 }
+.lighter_orange{
+background: #fffbf3 !important;
+background: -moz-linear-gradient(top,  #fffbf3 0%, #fef7ee 100%)!important;
+background: -webkit-linear-gradient(top,  #fffbf3 0%,#fef7ee 100%)!important;
+background: linear-gradient(to bottom,  #fffbf3 0%,#fef7ee 100%)!important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffbf3', endColorstr='#fef7ee',GradientType=0 )!important;
+}
